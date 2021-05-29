@@ -54,8 +54,7 @@ class MazePanel extends JPanel
 		
 		setBackground(Color.white); // set preferredSize for JScrollPane
 		
-		this.setPreferredSize(maze.windowSize()); // draw the maze and the solution 
-		// path in red points
+		this.setPreferredSize(maze.windowSize()); // draw the maze
 		
 		maze.draw(page);
 	}
